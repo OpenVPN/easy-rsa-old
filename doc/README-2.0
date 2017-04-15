@@ -82,11 +82,7 @@ INSTALL easy-rsa
    it will be deleted with rm -rf, so BE
    CAREFUL how you set KEY_DIR.
 4. (Optional) Edit other fields in vars
-   per your site data.  You may want to
-   increase KEY_SIZE to 2048 if you are
-   paranoid and don't mind slower key
-   processing, but certainly 1024 is
-   fine for testing purposes.  KEY_SIZE
+   per your site data. KEY_SIZE
    must be compatible across both peers
    participating in a secure SSL/TLS
    connection.
@@ -162,7 +158,7 @@ Usage: pkitool [options...] [common-name]
 Options:
   --batch    : batch mode (default)
   --keysize  : Set keysize
-      size   : size (default=1024)
+      size   : size (default=4096)
   --interact : interactive mode
   --server   : build server cert
   --initca   : build root CA
@@ -200,7 +196,7 @@ Generated files and corresponding OpenVPN directives:
   .crt files -> client/server certificates (--cert)
   .key files -> private keys, keep secure (--key)
   .csr files -> certificate signing request (not directly used by OpenVPN)
-  dh1024.pem or dh2048.pem -> Diffie Hellman parameters (--dh)
+  dh2048.pem -> Diffie Hellman parameters (--dh)
 Examples:
   pkitool --initca          -> Build root certificate
   pkitool --initca --pass   -> Build root certificate with password-protected key
