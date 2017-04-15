@@ -7,3 +7,4 @@ config.log
 config.status
 Makefile.in
 Makefile
+easy-rsa/2.0/keys
