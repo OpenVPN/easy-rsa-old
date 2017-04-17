@@ -6,7 +6,7 @@
 #
 
 if test $KEY_DIR; then
-    openssl dhparam -out ${KEY_DIR}/dh${KEY_SIZE}.pem ${KEY_SIZE}
+    openssl dhparam -out ${KEY_DIR}/dh${DH_KEY_SIZE}.pem ${DH_KEY_SIZE}
 else
     echo you must define KEY_DIR
 fi

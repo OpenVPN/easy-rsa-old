@@ -16,12 +16,15 @@ rem so make sure you define
 rem it correctly!
 set KEY_DIR=keys
 
-rem Increase this to 2048 if you
+rem Increase this if you
 rem are paranoid.  This will slow
 rem down TLS negotiation performance
 rem as well as the one-time DH parms
 rem generation process.
-set KEY_SIZE=1024
+set DH_KEY_SIZE=2048
+
+# Private key size
+set KEY_SIZE=4096
 
 rem These are the default values for fields
 rem which will be placed in the certificate.

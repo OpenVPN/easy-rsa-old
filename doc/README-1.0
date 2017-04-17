@@ -19,11 +19,7 @@ INSTALL
    it will be deleted with rm -rf, so BE
    CAREFUL how you set KEY_DIR.
 4. (Optional) Edit other fields in vars
-   per your site data.  You may want to
-   increase KEY_SIZE to 2048 if you are
-   paranoid and don't mind slower key
-   processing, but certainly 1024 is
-   fine for testing purposes.  KEY_SIZE
+   per your site data. KEY_SIZE
    must be compatible across both peers
    participating in a secure SSL/TLS
    connection.

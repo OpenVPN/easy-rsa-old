@@ -58,7 +58,7 @@ usage()
     echo "Options:"
     echo "  --batch    : batch mode (default)"
     echo "  --keysize  : Set keysize"
-    echo "      size   : size (default=1024)"
+    echo "      size   : size (default=4096)"
     echo "  --interact : interactive mode"
     echo "  --server   : build server cert"
     echo "  --initca   : build root CA"
@@ -92,7 +92,7 @@ usage()
     echo "  .crt files -> client/server certificates (--cert)"
     echo "  .key files -> private keys, keep secure (--key)"
     echo "  .csr files -> certificate signing request (not directly used by OpenVPN)"
-    echo "  dh1024.pem or dh2048.pem -> Diffie Hellman parameters (--dh)"
+    echo "  dh2048.pem -> Diffie Hellman parameters (--dh)"
     echo "Examples:"
     echo "  $PROGNAME --initca          -> Build root certificate"
     echo "  $PROGNAME --initca --pass   -> Build root certificate with password-protected key"
@@ -322,7 +322,7 @@ if [ -d "$KEY_DIR" ] && [ "$KEY_CONFIG" ]; then
 
     # Build root CA
     if [ $DO_ROOT -eq 1 ]; then
-	$OPENSSL req $BATCH -days $CA_EXPIRE $NODES_REQ -new -newkey rsa:$KEY_SIZE -sha1 \
+	$OPENSSL req $BATCH -days $CA_EXPIRE $NODES_REQ -new -newkey rsa:$KEY_SIZE \
 	    -x509 -keyout "$CA.key" -out "$CA.crt" -config "$KEY_CONFIG" && \
 	    chmod 0600 "$CA.key"
     else        
@@ -347,7 +347,7 @@ if [ -d "$KEY_DIR" ] && [ "$KEY_CONFIG" ]; then
 		echo "Generating key pair on PKCS#11 token..."
 		$PKCS11TOOL --module "$PKCS11_MODULE_PATH" --keypairgen \
 			--login --pin "$PKCS11_PIN" \
-			--key-type rsa:1024 \
+			--key-type rsa:$KEY_SIZE \
 			--slot "$PKCS11_SLOT" --id "$PKCS11_ID" --label "$PKCS11_LABEL" || exit 1
 		PKCS11_ARGS="-engine pkcs11 -keyform engine -key $PKCS11_SLOT:$PKCS11_ID"
 	fi

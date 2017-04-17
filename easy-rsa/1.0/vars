@@ -32,12 +32,15 @@ export KEY_DIR=$D/keys
 # Issue rm -rf warning
 echo NOTE: when you run ./clean-all, I will be doing a rm -rf on $KEY_DIR
 
-# Increase this to 2048 if you
+# Increase this only if you
 # are paranoid.  This will slow
 # down TLS negotiation performance
 # as well as the one-time DH parms
 # generation process.
-export KEY_SIZE=1024
+export DH_KEY_SIZE=2048
+
+# Private key size
+export KEY_SIZE=4096
 
 # These are the default values for fields
 # which will be placed in the certificate.
