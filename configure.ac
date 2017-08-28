@@ -27,7 +27,7 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.59)
 
-AC_INIT([easy-rsa], [2.3.0_master], [openvpn-users@lists.sourceforge.net])
+AC_INIT([easy-rsa], [2.3.1_master], [openvpn-users@lists.sourceforge.net])
 
 AC_CONFIG_SRCDIR([./easy-rsa/2.0/build-key-pass])
 AM_INIT_AUTOMAKE
