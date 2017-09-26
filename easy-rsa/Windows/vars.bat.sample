@@ -3,6 +3,12 @@ rem Edit this variable to point to
 rem the openssl.cnf file included
 rem with easy-rsa.
 
+rem Automatically set PATH to openssl.exe
+FOR /F "tokens=2*" %%a IN ('REG QUERY "HKEY_LOCAL_MACHINE\SOFTWARE\OpenVPN"') DO set "PATH=%PATH%;%%b\bin"
+
+rem Alternatively define the PATH to openssl.exe manually
+rem set "PATH=%PATH%;C:\Program Files\OpenVPN\bin"
+
 set HOME=%ProgramFiles%\OpenVPN\easy-rsa
 set KEY_CONFIG=openssl-1.0.0.cnf
 
