@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 
 #directory used by openvpn server for static ip assignment

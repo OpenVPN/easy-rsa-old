@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import subprocess
 
 count = 1000
