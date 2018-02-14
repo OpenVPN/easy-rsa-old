@@ -1,0 +1,137 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 515 (0x203)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=CA, L=SanFrancisco, O=Pixglo, Inc., OU=VPN-CIE, CN=tunnel.pixglo.com/name=Bala Chandrasekaran/emailAddress=bala@pixglo.com
+        Validity
+            Not Before: Feb 14 06:36:03 2018 GMT
+            Not After : Feb 12 06:36:03 2028 GMT
+        Subject: C=US, ST=CA, L=SanFrancisco, O=Pixglo, Inc., OU=VPN-CIE, CN=cie514/name=Bala Chandrasekaran/emailAddress=bala@pixglo.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:97:24:39:f6:ed:28:4c:c3:97:d7:40:5c:8b:d6:
+                    94:0d:40:0f:94:1c:6d:3b:a4:1e:95:a7:e6:54:04:
+                    d8:d0:0e:b0:51:76:4d:f6:f0:57:2d:83:37:22:7e:
+                    8c:02:5b:f2:13:17:ac:d4:7f:5b:a5:e6:3e:d2:0f:
+                    25:08:5c:5e:72:1b:a6:f8:ce:6e:67:da:62:47:f0:
+                    1e:d1:f0:62:77:d6:9f:68:41:de:51:37:00:00:9a:
+                    b1:0f:86:e4:29:2c:ff:b1:69:28:03:40:0f:68:2f:
+                    b7:c7:1d:a4:85:24:3a:da:ae:be:d3:a7:9b:5d:f1:
+                    fe:ed:e2:0c:91:bd:6c:fd:6f:44:de:8e:2a:01:20:
+                    44:d8:e8:df:f9:0e:6b:e0:f1:84:b5:c0:e5:88:a1:
+                    90:57:78:a6:8f:12:fd:56:35:21:f6:7f:2a:ec:f9:
+                    90:e5:34:f5:2a:55:ba:c9:3c:1e:b3:72:11:b2:72:
+                    a6:4e:55:84:6d:cf:1f:b2:6c:2e:f0:1e:1e:0f:4c:
+                    bf:ef:ba:73:d7:70:96:e8:de:98:cd:d3:b4:49:33:
+                    f3:ef:6a:38:3f:ef:33:47:8e:3f:56:84:c6:f6:26:
+                    44:5c:87:70:3f:40:eb:0c:e5:ed:bd:2f:c7:5d:07:
+                    99:41:92:0b:f6:b9:22:bd:61:35:d3:27:de:7f:52:
+                    31:38:0a:41:60:f6:ab:60:77:2c:b4:7f:9f:82:dd:
+                    c5:0b:8c:7f:25:de:d3:72:73:41:6d:37:c8:dd:71:
+                    70:e2:fb:ee:d6:b4:82:27:19:5d:d7:a3:f1:bf:8f:
+                    53:24:cd:ae:fb:a6:63:e4:5c:29:fa:14:b6:33:21:
+                    8e:44:7c:ac:74:7f:99:89:f7:39:92:7c:50:a1:d4:
+                    6d:3e:3e:7e:2a:0c:84:1e:35:79:b4:20:ec:0b:e7:
+                    51:aa:c4:6d:f6:4f:3b:5b:a4:33:9f:bd:fd:d6:83:
+                    d6:bf:a6:87:50:49:57:b4:08:5a:35:5e:ca:c0:e0:
+                    a4:36:6b:72:98:a1:e0:c0:97:41:d0:f2:22:d9:3e:
+                    74:65:11:e3:84:07:b8:82:31:37:f0:e6:da:e5:fd:
+                    80:b5:b4:cb:6a:61:47:a6:9a:db:47:b3:9c:ff:a1:
+                    94:7b:37:bf:83:10:57:3b:95:3c:ea:1f:a0:ae:f9:
+                    13:e8:5b:82:29:86:a5:6d:85:09:5a:24:73:24:1b:
+                    a4:b5:50:71:0c:9a:0d:40:48:fd:44:1f:cc:b2:07:
+                    0b:da:b6:42:8d:0f:ba:67:69:8f:5f:1d:52:d9:75:
+                    d7:84:12:76:f4:52:2b:27:17:06:6b:8b:69:99:2e:
+                    b7:4a:c7:bb:4c:13:4d:e7:fb:58:fa:1a:0a:b9:ec:
+                    a6:c6:01
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                71:E0:27:81:E9:66:13:3D:CF:8A:5A:D5:26:BB:9E:46:5D:A7:B8:94
+            X509v3 Authority Key Identifier: 
+                keyid:EF:38:8D:14:50:58:A7:5B:4D:9C:17:72:FC:DF:B9:AC:A7:51:B0:10
+                DirName:/C=US/ST=CA/L=SanFrancisco/O=Pixglo, Inc./OU=VPN-CIE/CN=tunnel.pixglo.com/name=Bala Chandrasekaran/emailAddress=bala@pixglo.com
+                serial:A6:DB:C6:83:80:E6:A0:79
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+         00:35:59:12:67:0e:c5:96:8b:ad:0d:ca:65:e7:7c:6c:18:96:
+         1c:a5:45:40:8d:d9:d4:43:70:98:20:55:e0:ad:88:bf:e2:b5:
+         7a:b6:6f:42:4b:fa:96:a4:32:95:3c:43:72:dc:33:94:5c:3d:
+         25:ef:f1:b6:bc:25:66:d6:3e:04:72:73:54:dd:cb:4d:52:94:
+         70:63:ea:1e:5c:10:3f:cf:63:c7:c7:2f:8e:ed:8b:c3:cb:6c:
+         1f:f3:35:7a:aa:3b:05:d3:be:4b:0d:69:82:49:4e:b5:3e:80:
+         2c:63:ca:0c:59:74:97:2c:76:f7:89:50:c3:8d:1c:9f:be:3a:
+         08:cf:d4:8e:44:3a:43:8c:16:02:d4:da:a1:d0:6e:3f:cd:ee:
+         d7:eb:6c:5b:28:a8:e2:f9:bf:d1:f6:ce:26:fa:bc:12:c2:fa:
+         86:1f:24:0b:a1:8c:0e:c3:2f:e9:bb:2a:f5:16:ea:99:e1:c7:
+         3a:f6:41:03:4f:45:f7:77:b8:77:07:16:c8:a8:26:d4:ee:a9:
+         1c:15:b1:b0:09:a6:47:0d:ea:a9:9d:97:c7:5a:a4:66:ae:d7:
+         1b:e4:8c:ce:89:33:b6:30:a2:fb:34:ad:38:0e:2d:e5:36:bc:
+         f5:12:ee:51:fd:a8:10:1d:1a:34:f7:3f:fb:d3:7a:a9:70:e6:
+         c4:01:b6:01:b5:e0:6e:55:ed:12:53:e0:bc:ff:bb:55:19:9e:
+         96:72:51:ad:25:42:c6:9a:00:4a:2d:80:6a:55:1c:62:f3:42:
+         86:d2:49:e9:dd:f0:be:d8:85:e0:54:0d:4d:a0:ee:9b:f7:1e:
+         f8:0b:ac:ae:54:a0:5c:1a:67:4e:50:b9:76:02:cc:b3:16:26:
+         2e:dc:24:d1:70:c3:67:49:84:f8:01:cd:46:96:66:ef:38:10:
+         f2:08:90:f2:a5:e4:ee:2e:fc:46:22:5c:bf:72:3a:b5:46:a2:
+         17:e5:c9:8f:ec:47:40:11:31:7d:27:d6:cd:bc:49:46:d5:f7:
+         a7:8c:25:c9:34:43:56:6a:ff:6a:8a:28:2c:d3:62:c6:fc:82:
+         d3:f0:03:5c:06:74:3c:7e:cc:8e:22:6e:b4:dd:d9:98:53:ed:
+         bd:7f:07:50:3d:c9:7e:c9:9e:43:f5:b8:b8:26:34:e6:40:86:
+         67:09:a4:70:80:e6:4d:51:d3:69:98:94:e9:92:a7:ba:92:98:
+         6f:c2:ca:85:10:63:74:27:a2:b4:b1:45:c6:f0:b0:36:b5:b3:
+         21:63:64:06:a0:54:7b:77:b0:93:b3:68:48:78:c9:26:cc:4f:
+         69:3f:8c:3c:3d:75:12:94:31:d3:af:72:12:96:cc:c7:d1:95:
+         36:97:50:7d:87:d0:e0:15
+-----BEGIN CERTIFICATE-----
+MIIHSDCCBTCgAwIBAgICAgMwDQYJKoZIhvcNAQEFBQAwgbQxCzAJBgNVBAYTAlVT
+MQswCQYDVQQIEwJDQTEVMBMGA1UEBxMMU2FuRnJhbmNpc2NvMRUwEwYDVQQKEwxQ
+aXhnbG8sIEluYy4xEDAOBgNVBAsTB1ZQTi1DSUUxGjAYBgNVBAMTEXR1bm5lbC5w
+aXhnbG8uY29tMRwwGgYDVQQpExNCYWxhIENoYW5kcmFzZWthcmFuMR4wHAYJKoZI
+hvcNAQkBFg9iYWxhQHBpeGdsby5jb20wHhcNMTgwMjE0MDYzNjAzWhcNMjgwMjEy
+MDYzNjAzWjCBqTELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRUwEwYDVQQHEwxT
+YW5GcmFuY2lzY28xFTATBgNVBAoTDFBpeGdsbywgSW5jLjEQMA4GA1UECxMHVlBO
+LUNJRTEPMA0GA1UEAxMGY2llNTE0MRwwGgYDVQQpExNCYWxhIENoYW5kcmFzZWth
+cmFuMR4wHAYJKoZIhvcNAQkBFg9iYWxhQHBpeGdsby5jb20wggIiMA0GCSqGSIb3
+DQEBAQUAA4ICDwAwggIKAoICAQCXJDn27ShMw5fXQFyL1pQNQA+UHG07pB6Vp+ZU
+BNjQDrBRdk328FctgzcifowCW/ITF6zUf1ul5j7SDyUIXF5yG6b4zm5n2mJH8B7R
+8GJ31p9oQd5RNwAAmrEPhuQpLP+xaSgDQA9oL7fHHaSFJDrarr7Tp5td8f7t4gyR
+vWz9b0TejioBIETY6N/5Dmvg8YS1wOWIoZBXeKaPEv1WNSH2fyrs+ZDlNPUqVbrJ
+PB6zchGycqZOVYRtzx+ybC7wHh4PTL/vunPXcJbo3pjN07RJM/Pvajg/7zNHjj9W
+hMb2JkRch3A/QOsM5e29L8ddB5lBkgv2uSK9YTXTJ95/UjE4CkFg9qtgdyy0f5+C
+3cULjH8l3tNyc0FtN8jdcXDi++7WtIInGV3Xo/G/j1Mkza77pmPkXCn6FLYzIY5E
+fKx0f5mJ9zmSfFCh1G0+Pn4qDIQeNXm0IOwL51GqxG32TztbpDOfvf3Wg9a/podQ
+SVe0CFo1XsrA4KQ2a3KYoeDAl0HQ8iLZPnRlEeOEB7iCMTfw5trl/YC1tMtqYUem
+mttHs5z/oZR7N7+DEFc7lTzqH6Cu+RPoW4IphqVthQlaJHMkG6S1UHEMmg1ASP1E
+H8yyBwvatkKND7pnaY9fHVLZddeEEnb0UisnFwZri2mZLrdKx7tME03n+1j6Ggq5
+7KbGAQIDAQABo4IBazCCAWcwCQYDVR0TBAIwADAtBglghkgBhvhCAQ0EIBYeRWFz
+eS1SU0EgR2VuZXJhdGVkIENlcnRpZmljYXRlMB0GA1UdDgQWBBRx4CeB6WYTPc+K
+WtUmu55GXae4lDCB6QYDVR0jBIHhMIHegBTvOI0UUFinW02cF3L837msp1GwEKGB
+uqSBtzCBtDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRUwEwYDVQQHEwxTYW5G
+cmFuY2lzY28xFTATBgNVBAoTDFBpeGdsbywgSW5jLjEQMA4GA1UECxMHVlBOLUNJ
+RTEaMBgGA1UEAxMRdHVubmVsLnBpeGdsby5jb20xHDAaBgNVBCkTE0JhbGEgQ2hh
+bmRyYXNla2FyYW4xHjAcBgkqhkiG9w0BCQEWD2JhbGFAcGl4Z2xvLmNvbYIJAKbb
+xoOA5qB5MBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDANBgkqhkiG
+9w0BAQUFAAOCAgEAADVZEmcOxZaLrQ3KZed8bBiWHKVFQI3Z1ENwmCBV4K2Iv+K1
+erZvQkv6lqQylTxDctwzlFw9Je/xtrwlZtY+BHJzVN3LTVKUcGPqHlwQP89jx8cv
+ju2Lw8tsH/M1eqo7BdO+Sw1pgklOtT6ALGPKDFl0lyx294lQw40cn746CM/UjkQ6
+Q4wWAtTaodBuP83u1+tsWyio4vm/0fbOJvq8EsL6hh8kC6GMDsMv6bsq9RbqmeHH
+OvZBA09F93e4dwcWyKgm1O6pHBWxsAmmRw3qqZ2Xx1qkZq7XG+SMzokztjCi+zSt
+OA4t5Ta89RLuUf2oEB0aNPc/+9N6qXDmxAG2AbXgblXtElPgvP+7VRmelnJRrSVC
+xpoASi2AalUcYvNChtJJ6d3wvtiF4FQNTaDum/ce+AusrlSgXBpnTlC5dgLMsxYm
+Ltwk0XDDZ0mE+AHNRpZm7zgQ8giQ8qXk7i78RiJcv3I6tUaiF+XJj+xHQBExfSfW
+zbxJRtX3p4wlyTRDVmr/aoooLNNixvyC0/ADXAZ0PH7MjiJutN3ZmFPtvX8HUD3J
+fsmeQ/W4uCY05kCGZwmkcIDmTVHTaZiU6ZKnupKYb8LKhRBjdCeitLFFxvCwNrWz
+IWNkBqBUe3ewk7NoSHjJJsxPaT+MPD11EpQx069yEpbMx9GVNpdQfYfQ4BU=
+-----END CERTIFICATE-----
